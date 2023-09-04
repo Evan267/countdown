@@ -90,9 +90,7 @@ export default {
     mounted() {
         document.getElementById("app").classList.remove('none');
         this.now = new Date().getTime();
-        this.stop = this.now + 2000;
         this.stop = new Date('September 16, 2023 14:00:00').getTime();
-        //this.stop = new Date('September 4, 2023 14:00:00').getTime();
         if (this.now >= this.stop)
         {
             this.top = true;
