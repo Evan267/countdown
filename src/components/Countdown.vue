@@ -133,7 +133,7 @@ export default {
     column-gap: 3%;
     display: flex;
     justify-content: center;
-    font-family: Andale Mono;
+    font-family: 'Fira Mono';
     margin-bottom: 0.7em;
 }
 .counter__block {
