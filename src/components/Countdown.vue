@@ -2,7 +2,7 @@
   <Start v-if="top" class="start"></Start>
   <div v-else class="count">
     <div class="count__msg">
-        <p>Retrouvez-nous à la ferme dans</p>
+        <p>Retrouvez-nous à la <a href="https://goo.gl/maps/BJ9yn72wMZ3DxYsHA">ferme</a> dans</p>
     </div>
     <div class="counter">
         <div class="counter__block">
@@ -120,12 +120,14 @@ export default {
 }
 
 .count__msg {
-    font-size: 0.8em;
     text-align: center;
     position: relative;
     z-index: 10;
-    font-family: 'Handlee';
     font-size: 0.5em;
+}
+
+.count__msg p {
+    font-family: 'Handlee';
 }
 
 .counter {
